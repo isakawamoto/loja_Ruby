@@ -28,7 +28,7 @@
 	<div class="col-sm-2">
 		<div class="form-group"> 
 			<%= form.label :departamento %>
-			<%= form.collection_select :departamento, @departamento, :id, :nome %>
+			<%= form.collection_select :departamento, @departamento, :id, :nome, {}, class:"form-control" %>
 		</div>
 	</div>
 </div>

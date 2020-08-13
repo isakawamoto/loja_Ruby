@@ -10,6 +10,7 @@
 				<tr>
 					<td><b>Nome</b></td>
 					<td><b>Descrição</b></td>
+					<td><b>Departamento</b></td>
 					<td><b>Preço</b></td>
 					<td><b>Quantidade</b></td>
 					<td colspan="1">
@@ -20,6 +21,7 @@
 				<tr>
 					<td><%= produto.nome %></td>
 					<td><%= produto.descricao %></td>
+					<td><%= produto.departamento %></td>
 					<td><%= produto.preco %></td>
 					<td><%= produto.quantidade %></td>
 					<td><%= button_to "Remover", produto, method: :delete, class:"btn btn-danger", data: {confirm: "Tem certeza que deseja remover #{produto.nome}?"} %></td>
