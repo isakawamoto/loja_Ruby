@@ -3,7 +3,6 @@ class CreateProdutos < ActiveRecord::Migration[6.0]
     create_table :produtos do |t|
       t.string :nome
       t.text :descricao
-      t.integer :descricao
       t.decimal :preco
       t.integer :quantidade
 
