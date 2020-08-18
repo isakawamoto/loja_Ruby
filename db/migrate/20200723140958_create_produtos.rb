@@ -1,6 +1,6 @@
 class CreateProdutos < ActiveRecord::Migration[6.0]
   def change
-    create_table :produtos do |t|
+    create_table :produto do |t|
       t.string :nome
       t.text :descricao
       t.integer :descricao
